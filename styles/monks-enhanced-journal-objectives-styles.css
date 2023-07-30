@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.app.window-app#objective-display {
+  background: rgb(0, 0, 0);
+  border: none;
+  height: max-content !important;
+  padding: 0;
+}
+.app.window-app#objective-display:hover .window-resizable-handle {
+  display: initial;
+}
+.app.window-app#objective-display .window-header {
+  background-color: rgba(255, 255, 255, 0.075);
+  border: 0;
+  color: rgb(128, 128, 128);
+  font-size: 0.85em;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+.app.window-app#objective-display .window-resizable-handle {
+  display: none;
+}
+.app.window-app#objective-display section.window-content ul {
+  margin: 0;
+}
+.app.window-app#objective-display section.window-content ul li {
+  background: none;
+  border: 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+.app.window-app#objective-display section.window-content ul li:before {
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  bottom: 0;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 0.8em;
+  height: 0.75rem;
+  justify-content: center;
+  line-height: 0;
+  left: 0;
+  margin: auto 0.5rem;
+  position: absolute;
+  top: 0;
+  width: 0.75rem;
+}
+.app.window-app#objective-display section.window-content ul li:hover {
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+.app.window-app#objective-display section.window-content ul li[status=available]:before {
+  content: " ";
+}
+.app.window-app#objective-display section.window-content ul li[status=completed]:before {
+  color: rgba(0, 255, 0, 0.75);
+  content: "✔️";
+}
+.app.window-app#objective-display section.window-content ul li[status=failed]:before {
+  content: "❌";
+}
+.app.window-app#objective-display section.window-content ul li[status=inactive]:before {
+  color: rgba(255, 255, 255, 0.5);
+  content: "?";
+}
+.app.window-app#objective-display section.window-content ul li .quest-name {
+  align-items: center;
+  border: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*# sourceMappingURL=monks-enhanced-journal-objectives-styles.css.map */

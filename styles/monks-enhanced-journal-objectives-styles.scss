@@ -1,0 +1,86 @@
+.app.window-app#objective-display {
+  background: rgb(0, 0, 0);
+  border: none;
+  height: max-content !important;
+  padding: 0;
+
+  &:hover {
+    .window-resizable-handle {
+      display: initial;
+    }
+  }
+
+  .window-header {
+    background-color: rgba(255, 255, 255, 0.075);
+    border: 0;
+    color: rgb(128, 128, 128);
+    font-size: 0.85em;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .window-resizable-handle {
+    display: none;
+  }
+
+  section.window-content {
+    ul {
+      margin: 0;
+
+      li {
+        background: none;
+        border: 0;
+        padding-left: 1.5rem;
+        position: relative;
+
+        &:before {
+          align-items: center;
+          border: 1px solid rgba(255, 255, 255, 0.5);
+          bottom: 0;
+          display: flex;
+          flex-shrink: 0;
+          font-size: 0.8em;
+          height: 0.75rem;
+          justify-content: center;
+          line-height: 0;
+          left: 0;
+          margin: auto 0.5rem;
+          position: absolute;
+          top: 0;
+          width: 0.75rem;
+        }
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.1);
+          cursor: pointer;
+        }
+
+        &[status=available]:before {
+          content: " ";
+        }
+
+        &[status=completed]:before {
+          color: rgba(0, 255, 0, 0.75);
+          content: "✔️";
+        }
+
+        &[status=failed]:before {
+          content: "❌";
+        }
+
+        &[status=inactive]:before {
+          color: rgba(255, 255, 255, 0.5);
+          content: "?";
+        }
+
+        .quest-name {
+          align-items: center;
+          border: 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

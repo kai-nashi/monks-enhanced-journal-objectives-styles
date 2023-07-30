@@ -1,0 +1,28 @@
+{
+  "id": "monks-enhanced-journal-objectives-styles",
+  "title": "Monk's Enhanced Journal Objectives styles",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "monks-enhanced-journal",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Kai Nashi",
+      "discord": "kai_nashi",
+      "flags": {}
+    }
+  ],
+  "styles": [
+    "styles/monks-enhanced-journal-objectives-styles.css"
+  ]
+}
