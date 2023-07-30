@@ -26,7 +26,5 @@
   ],
   "description": "Fix styles for objectives list.",
   "url": "https://github.com/kai_nashi/monks-enhanced-journal-objectives-styles",
-  "download": "https://github.com/kai-nashi/monks-enhanced-journal-objectives-styles/archive/refs/tags/1.0.2.zip",
-  "manifest": "https://github.com/kai-nashi/monks-enhanced-journal-objectives-styles/blob/1.0.2/module.json",
-  "bugs": "https://github.com/kai-nashi/monks-enhanced-journal-objectives-styles/issues"
+  "download": "https://github.com/kai-nashi/monks-enhanced-journal-objectives-styles/archive/refs/tags/1.0.2.zip"
 }
