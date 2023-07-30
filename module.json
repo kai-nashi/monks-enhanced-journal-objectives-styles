@@ -18,11 +18,12 @@
   "authors": [
     {
       "name": "Kai Nashi",
-      "discord": "kai_nashi",
-      "flags": {}
+      "discord": "kai_nashi"
     }
   ],
   "styles": [
     "styles/monks-enhanced-journal-objectives-styles.css"
-  ]
+  ],
+  "description": "Fix styles for objectives list.\n\nExample:\n<img src=\"https://github.com/Nikakto/monks-enhanced-journal-objectives-styles/raw/master/docs%2Fobjectives-fixed.png\" alt=\"objectives-fixed.png\" />\n\nExample:\n<img src=\"https://github.com/Nikakto/monks-enhanced-journal-objectives-styles/raw/master/docs%2Fobjectives-original.png\" alt=\"objectives-original.png\" />",
+  "url": "https://github.com/Nikakto/monks-enhanced-journal-objectives-styles"
 }
