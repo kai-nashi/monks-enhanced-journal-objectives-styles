@@ -24,6 +24,9 @@
   "styles": [
     "styles/monks-enhanced-journal-objectives-styles.css"
   ],
-  "description": "Fix styles for objectives list.\n\nExample:\n<img src=\"https://github.com/Nikakto/monks-enhanced-journal-objectives-styles/raw/master/docs%2Fobjectives-fixed.png\" alt=\"objectives-fixed.png\" />\n\nExample:\n<img src=\"https://github.com/Nikakto/monks-enhanced-journal-objectives-styles/raw/master/docs%2Fobjectives-original.png\" alt=\"objectives-original.png\" />",
-  "url": "https://github.com/Nikakto/monks-enhanced-journal-objectives-styles"
+  "description": "Fix styles for objectives list.",
+  "url": "https://github.com/kai_nashi/monks-enhanced-journal-objectives-styles",
+  "download": "https://github.com/kai-nashi/monks-enhanced-journal-objectives-styles/archive/refs/tags/1.0.0.zip",
+  "manifest": "https://github.com/kai-nashi/monks-enhanced-journal-objectives-styles/blob/1.0.0/module.json",
+  "bugs": "https://github.com/kai-nashi/monks-enhanced-journal-objectives-styles/issues"
 }
